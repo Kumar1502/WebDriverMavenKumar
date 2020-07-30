@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[bankmanager login successful!!]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=null>screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=null><img src=null height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=null>screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=null><img src=null height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="11934" started-at="2020-07-21T06:46:05Z" finished-at="2020-07-21T06:46:17Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager LoginTest" duration-ms="6303" started-at="2020-07-21T06:46:05Z" finished-at="2020-07-21T06:46:11Z">
+      <class name="com.way2a.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.way2a.testcases.BankManagerLoginTest@7671cb68]" name="loginAsBankManager" duration-ms="4893" started-at="2020-07-21T14:46:05Z" finished-at="2020-07-21T14:46:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[bankmanager login successful!!]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=null>screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=null><img src=null height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.way2a.testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager LoginTest -->
+    <test name="Add Customer" duration-ms="5579" started-at="2020-07-21T06:46:12Z" finished-at="2020-07-21T06:46:17Z">
+      <class name="com.way2a.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.way2a.testcases.AddCustomerTest@120f102b]" name="setUp" is-config="true" duration-ms="28062" started-at="2020-07-21T14:45:37Z" finished-at="2020-07-21T14:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCstomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2a.testcases.AddCustomerTest@120f102b]" name="addCstomer" duration-ms="2225" started-at="2020-07-21T14:46:12Z" data-provider="getData" finished-at="2020-07-21T14:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Xg70070]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=null>screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=null><img src=null height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCstomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.way2a.testcases.AddCustomerTest@120f102b]" name="tearDown" is-config="true" duration-ms="1930" started-at="2020-07-21T14:46:17Z" finished-at="2020-07-21T14:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.way2a.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

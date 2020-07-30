@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Customer"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.225">
+  <properties />
+  
+  
+            <testcase name="addCstomer" time="2.225" classname="com.way2a.testcases.AddCustomerTest" />
+      
+</testsuite>

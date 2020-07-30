@@ -1,0 +1,10 @@
+com\way2a\Rough\TestProperties.class
+com\way2a\Base\TestBase.class
+com\way2a\testcases\OpenAccountTest.class
+com\way2a\testcases\AddCustomerTest.class
+com\way2a\utilities\ExcelReader.class
+com\way2a\utilities\TestUtil.class
+com\way2a\testcases\BankManagerLoginTest.class
+com\way2a\listeners\CustomListeners.class
+com\way2a\Rough\TestTimeStamp.class
+com\way2a\utilities\ExtentManager.class

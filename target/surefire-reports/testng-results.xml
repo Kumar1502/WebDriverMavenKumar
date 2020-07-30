@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[bankmanager login successful!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="29000" started-at="2020-07-22T17:01:54Z" finished-at="2020-07-22T17:02:23Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager LoginTest" duration-ms="7273" started-at="2020-07-22T17:01:54Z" finished-at="2020-07-22T17:02:01Z">
+      <class name="com.way2a.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.way2a.testcases.BankManagerLoginTest@581ac8a8]" name="loginAsBankManager" duration-ms="6862" started-at="2020-07-23T01:01:54Z" finished-at="2020-07-23T01:02:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[bankmanager login successful!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.way2a.testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager LoginTest -->
+    <test name="Add Customer" duration-ms="19002" started-at="2020-07-22T17:02:01Z" finished-at="2020-07-22T17:02:20Z">
+      <class name="com.way2a.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2a.testcases.AddCustomerTest@56cdfb3b]" name="addCustomerTest" duration-ms="5189" started-at="2020-07-23T01:02:01Z" data-provider="dp" finished-at="2020-07-23T01:02:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Xg70070]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2a.testcases.AddCustomerTest@56cdfb3b]" name="addCustomerTest" duration-ms="4707" started-at="2020-07-23T01:02:06Z" data-provider="dp" finished-at="2020-07-23T01:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CVf907]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2a.testcases.AddCustomerTest@56cdfb3b]" name="addCustomerTest" duration-ms="4445" started-at="2020-07-23T01:02:11Z" data-provider="dp" finished-at="2020-07-23T01:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santosh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Xg70070]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.way2a.testcases.AddCustomerTest@56cdfb3b]" name="addCustomerTest" duration-ms="4410" started-at="2020-07-23T01:02:16Z" data-provider="dp" finished-at="2020-07-23T01:02:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suhas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mishra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Xg70070]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.way2a.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer -->
+    <test name="Open Account Test" duration-ms="2710" started-at="2020-07-22T17:02:20Z" finished-at="2020-07-22T17:02:23Z">
+      <class name="com.way2a.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.way2a.testcases.OpenAccountTest@6283d8b8]" name="setUp" is-config="true" duration-ms="10723" started-at="2020-07-23T01:01:43Z" finished-at="2020-07-23T01:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.way2a.testcases.OpenAccountTest@6283d8b8]" name="openAccountTest" duration-ms="2636" started-at="2020-07-23T01:02:20Z" data-provider="dp" finished-at="2020-07-23T01:02:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh Raj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.way2a.testcases.OpenAccountTest@6283d8b8]" name="tearDown" is-config="true" duration-ms="1294" started-at="2020-07-23T01:02:23Z" finished-at="2020-07-23T01:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.way2a.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
